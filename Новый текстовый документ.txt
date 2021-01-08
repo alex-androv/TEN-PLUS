@@ -1,0 +1,57 @@
+<ul class="hidden-menu__tens">
+<li><a href="#">“ЁЌы дл€ водонагревателей</a></li>
+<li><a href="#">“ЁЌы дл€ стиральных машин</a></li>
+<li><a href="#">¬оздушные “ЁЌы</a></li>
+<li><a href="#">¬од€ные “ЁЌы</a></li>
+<li><a href="#">“ЁЌы дл€ промышленных и бытовых плит</a></li>
+<li><a href="#">“ЁЌы бытовые</a></li>
+<li><a href="#">“ЁЌы дл€ дистилл€торов и кулеров</a></li>
+<li><a href="#">“ЁЌы дл€ сауны</a></li>
+<li><a href="#">Ѕлоки “ЁЌ</a></li>
+<li><a href="#">Ќагревательные элементы дл€ конвекторов</a></li>
+<li><a href="#">«апчасти дл€ “ЁЌов</a></li>
+</ul>
+
+<ul class="hidden-menu__washers">
+<li><a href="#">“ЁЌы</a></li>
+<li><a href="#">ѕомпы</a></li>
+<li><a href="#">ћагнитные электроклапаны</a></li>
+<li><a href="#">ѕодшипники</a></li>
+<li><a href="#">—мазки, средства и спреи</a></li>
+<li><a href="#">—альники</a></li>
+<li><a href="#">–емни</a></li>
+</ul>
+
+
+
+catalogContent.innerHTML = "<ul class="hidden-menu__tens"><li><a href="#">“ЁЌы дл€ водонагревателей</a></li><li><a href="#">“ЁЌы дл€ стиральных машин</a></li><li><a href="#">¬оздушные “ЁЌы</a></li><li><a href="#">¬од€ные “ЁЌы</a></li><li><a href="#">“ЁЌы дл€ промышленных и бытовых плит</a></li><li><a href="#">“ЁЌы бытовые</a></li><li><a href="#">“ЁЌы дл€ дистилл€торов и кулеров</a></li><li><a href="#">“ЁЌы дл€ сауны</a></li><li><a href="#">Ѕлоки “ЁЌ</a></li><li><a href="#">Ќагревательные элементы дл€ конвекторов</a></li><li><a href="#">«апчасти дл€ “ЁЌов</a></li></ul>"
+
+
+
+catalogContain1.mouseover = function() {
+    catalogContent.innerHTML = `<ul class="hidden-menu__tens">
+    <li><a href="#">“ЁЌы дл€ водонагревателей</a></li>
+    <li><a href="#">“ЁЌы дл€ стиральных машин</a></li>
+    <li><a href="#">¬оздушные “ЁЌы</a></li>
+    <li><a href="#">¬од€ные “ЁЌы</a></li>
+    <li><a href="#">“ЁЌы дл€ промышленных и бытовых плит</a></li>
+    <li><a href="#">“ЁЌы бытовые</a></li>
+    <li><a href="#">“ЁЌы дл€ дистилл€торов и кулеров</a></li>
+    <li><a href="#">“ЁЌы дл€ сауны</a></li>
+    <li><a href="#">Ѕлоки “ЁЌ</a></li>
+    <li><a href="#">Ќагревательные элементы дл€ конвекторов</a></li>
+    <li><a href="#">«апчасти дл€ “ЁЌов</a></li>
+    </ul>`
+}
+
+catalogContain2.mouseover = function() {
+    catalogContent.innerHTML = `<ul class="hidden-menu__washers">
+    <li><a href="#">“ЁЌы</a></li>
+    <li><a href="#">ѕомпы</a></li>
+    <li><a href="#">ћагнитные электроклапаны</a></li>
+    <li><a href="#">ѕодшипники</a></li>
+    <li><a href="#">—мазки, средства и спреи</a></li>
+    <li><a href="#">—альники</a></li>
+    <li><a href="#">–емни</a></li>
+    </ul>`
+}
